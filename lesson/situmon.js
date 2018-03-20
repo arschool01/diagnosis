@@ -25,16 +25,16 @@ let miseruQ1 = () => {
 	let q = new Situmon(1);
 
 	// 質問文
-	q.bun('問題文の表示');
+	q.bun('今当てはまるものを答えてください。');
 
 	// 選択肢が文章の場合はt, 画像の場合はiをセット
 	q.syurui('t');
 
 	// 選択肢を追加していく
-	q.sentakusi('選択肢1');
-	q.sentakusi('選択肢2');
-	q.sentakusi('選択肢3');
-	q.sentakusi('選択肢4');
+	q.sentakusi('やっていない宿題が３個以上のっこている。');
+	q.sentakusi('宿題も全部終わってあとは全部自由時間！');
+	q.sentakusi('あとお風呂だけ！');
+	q.sentakusi('あとは寝るだけ！');
 
 };
 

@@ -31,28 +31,27 @@ let miseruKekka = (kekka) => {
 
 	//結果が1だった場合
 	if(kekka == 1){
-		midasi = '診断結果1の見出し';
-		gazo = 'img/sample/r1.jpg';
-		setumei = '診断結果1の説明文がここに入ります';
-
+		midasi = '「やりたくないよ〜　疲れたよ〜」';
+		gazo = 'img/bennkyou.png';
+		setumei = 'あなたはとても宿題など勉強をやりたくなく、遊びたい気持ちでしょう。宿題をやっている合間に糖分をとったりするといいでしょう。';
 	}
 	//結果が2だった場合
 	else if(kekka == 2){
-		midasi = '診断結果2の見出し';
-		gazo = 'img/sample/r2.jpg';
-		setumei = '診断結果2の説明文がここに入ります';
+		midasi = '安らかな気持ち';
+		gazo = 'img/yasuraka.png';
+		setumei = '今は本を読むといいでしょう。暴れず座りながら、寝ながらできる遊びがいいでしょう。';
 	}
 	//結果が3だった場合
 	else if(kekka == 3){
-		midasi = '診断結果3の見出し';
-		gazo = 'img/sample/r3.jpg';
-		setumei = '診断結果3の説明文がここに入ります';
+		midasi = '将来のことを考えよう';
+		gazo = 'img/syourainoyume.png';
+		setumei = 'あとでなにをするか。明日何をするか。をかんがえてみよう！';
 	}
 	//結果が4だった場合
 	else if(kekka == 4){
-		midasi = '診断結果4の見出し';
-		gazo = 'img/sample/r4.jpg';
-		setumei = '診断結果4の説明文がここに入ります';
+		midasi = 'なんの夢を見たいか考えてみよう！';
+		gazo = 'img/yumewomiteiru.png';
+		setumei = 'なんのゆめをみたいか、考えていい眠りにつこう！寝坊しないようにね！';
 	}
 
 	//結果を画面に表示する
