@@ -1,0 +1,70 @@
+/* ----------------
+ 全体
+ ---------------- */
+/* -- 背景色 -- */
+body{
+    background: #CEE3F6;
+}
+
+/* ----------------
+ 質問ページ
+ ---------------- */
+/* -- 質問の見出し -- */
+#quiz-title{
+    color: #F5A9F2;
+}
+/* -- 質問の文章 -- */
+#question-state{
+    border-color: #F5A9F2;
+    color:#F5A9F2;
+    background:#E0F8F7  ;
+}
+/* -- 質問の見出し -- */
+#ul-select.text{
+}
+
+/* -- 質問の選択肢全体(文章を選ぶ質問) -- */
+#ul-select.text{
+    background-image :none;
+    background-image: #CEE3F6 ;
+}
+
+/* -- 質問の各選択肢（文章を選ぶ質問） --*/
+#ul-select.text li{
+    color: #F5A9F2;
+    border: 1px solid #F5A9F2;
+    background:#E0F8F7 ;
+}
+
+
+/* -- 質問の各選択肢（画像を選ぶ質問）の画像 --*/
+#ul-select.image li .choice-image{
+    border-color: #cccccc;
+}
+
+
+
+/* ----------------
+ 診断結果ページ
+ ---------------- */
+/* -- 診断結果ページの見出し -- */
+#result-title{
+    color: #7a0000;
+}
+
+/* -- 診断結果の見出し -- */
+#result-state{
+}
+
+/* -- 診断結果の画像の外枠 -- */
+#result-image{
+}
+
+/* -- 診断結果の画像 -- */
+#result-image img{
+    border-color: #7a0000;
+}
+
+/* -- 診断結果の説明文 -- */
+#result-detail{
+}
