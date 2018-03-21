@@ -32,25 +32,25 @@ let miseruKekka = (kekka) => {
 	//結果が1だった場合
 	if(kekka == 1){
 		midasi = '「やりたくないよ〜　疲れたよ〜」';
-		gazo = 'img/bennkyou.png';
+		gazo = 'img/a.jpg';
 		setumei = 'あなたはとても宿題など勉強をやりたくなく、遊びたい気持ちでしょう。宿題をやっている合間に糖分をとったりするといいでしょう。';
 	}
 	//結果が2だった場合
 	else if(kekka == 2){
 		midasi = '安らかな気持ち';
-		gazo = 'img/yasuraka.png';
+		gazo = 'img/b.jpg';
 		setumei = '今は本を読むといいでしょう。暴れず座りながら、寝ながらできる遊びがいいでしょう。';
 	}
 	//結果が3だった場合
 	else if(kekka == 3){
 		midasi = '将来のことを考えよう';
-		gazo = 'img/syourainoyume.png';
+		gazo = 'img/c.jpg';
 		setumei = 'あとでなにをするか。明日何をするか。をかんがえてみよう！';
 	}
-	//結果が4だった場合
+	//結果が4だった場合	
 	else if(kekka == 4){
 		midasi = 'なんの夢を見たいか考えてみよう！';
-		gazo = 'img/yumewomiteiru.png';
+		gazo = 'img/d.jpg';
 		setumei = 'なんのゆめをみたいか、考えていい眠りにつこう！寝坊しないようにね！';
 	}
 
